@@ -1,0 +1,175 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family:"Microsoft Yahei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+	box-sizing: border-box;
+}
+
+.resume {
+	width: 800px;
+	height: 1100px;
+	margin: 0 auto;
+	background: #f1eee8;
+}
+
+aside {
+	width: 300px;
+	height: 100%;
+	float: left;
+	background :rgb(93, 195, 177);
+//	background: rgba(93, 195, 177,0.3);
+	padding: 40px 33px;
+	text-align: center;
+	position: relative;
+}
+
+
+.img {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+}
+
+div.img + p {
+	font-size: 33px;
+	font-weight: bolder;
+	padding: 0 0 15px 0;
+	border-bottom: 2px solid   #3FA293;
+}
+
+div.img + p + p {
+	color: #147d71;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 15px 0 0 0 ;
+}
+
+.white {
+	color: #fff;
+}
+
+.skill {
+	margin: 30px 0 30px 0;
+	text-align: right;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.skill + p{
+	color: #147d71;
+}
+.skill>div {
+	margin: 0 0 10px 0;
+}
+
+.skill>div>div {
+	width: 150px;
+	display: inline-block;
+	background: #3eb69f;
+	border-radius: 5px;
+	height: 12px;
+	margin:0 0 0 12px; 
+	vertical-align: middle;
+	text-align: left;
+}
+
+ .skill>div>div>div {
+	background: #fff;
+	height: 100%;
+	border-radius:5px 0 0 5px;
+} 
+
+.contact {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.contact p{
+
+}
+
+.content {
+	margin: 0 0 0 320px;
+	width: 430px;
+	background: #f1eee8;
+}
+
+.content p {
+	color: #777;
+	font-size: 14px;
+	margin: 7px 0 0 0;
+}
+
+.product {
+	padding: 40px 0 0 0;
+}
+.product>h2 {
+	margin: 0 0 15px 0;
+}
+
+h2 {
+	color: #6a6a6a;
+	margin:  20px 0 15px 0;
+}
+
+h3 {
+	color: #6a6a6a;
+	font-size: 16px;
+	margin: 10px 0 0 0;
+}
+h3>a {
+	color: #6a6a6a;
+}
+
+.education {
+	margin: 20px 0 0 0;
+}
+
+.whatIKnow span,.product span {
+	color: #fff;
+	background: #5dc3b0;
+	display: inline-block;
+	padding: 3px 6px;
+	border-radius: 5px;
+	margin:  8px  8px 0 0;
+}
+
+.product span {
+	float: right;
+	font-size: 15px;
+	line-height: 21px;
+	margin: 0 5px;
+	padding: 0 5px;	
+	height: 21px;
+}
+
+hr {
+	border:1px solid #3FA293;
+	margin: 20px 0;
+}
+
+div.contact p:nth-child(1):before{
+	content: url(../icon/iconfont-shouji.png);
+}
+
+div.contact p:nth-child(2):before{
+	content: url(../icon/iconfont-youxiang.png);
+}
+
+div.contact p:nth-child(3):before{
+	content: url(../icon/iconfont-github.png);
+}
+
+div.contact p:nth-child(4):before{
+	content: url(../icon/iconfont-zhuye.png);
+}
+
+div.contact p:before{
+	position: relative;
+	top: 5px;
+	margin: 0 5px 0 0;
+}
