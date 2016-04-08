@@ -92,6 +92,11 @@ div.img + p + p {
 	margin: 10px 0 0 0;
 }
 
+.contact>p>a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .content {
 	margin: 0 0 0 320px;
 	width: 430px;
