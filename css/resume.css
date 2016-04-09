@@ -90,6 +90,8 @@ div.img + p + p {
 
 .contact p{
 	margin: 10px 0 0 0;
+	text-indent: 28px;
+	background: url(../img/icon.png) no-repeat;
 }
 
 .contact>p>a {
@@ -107,6 +109,7 @@ div.img + p + p {
 	color: #777;
 	font-size: 14px;
 	margin: 7px 0 0 0;
+
 }
 
 .product {
@@ -157,20 +160,20 @@ hr {
 	margin: 20px 0;
 }
 
-div.contact p:nth-child(1):before{
-	content: url(../img/icon/iconfont-shouji.png);
+
+
+div.contact p:nth-child(2){
+	background-position: 0 -21px;
 }
 
-div.contact p:nth-child(2):before{
-	content: url(../img/icon/iconfont-youxiang.png);
+div.contact p:nth-child(3){
+	background-position: 0 -42px;
+	
 }
 
-div.contact p:nth-child(3):before{
-	content: url(../img/icon/iconfont-github.png);
-}
+div.contact p:nth-child(4){
+	background-position: 0 -63px;
 
-div.contact p:nth-child(4):before{
-	content: url(../img/icon/iconfont-zhuye.png);
 }
 
 div.contact p:before{
