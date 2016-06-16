@@ -49,10 +49,10 @@ div.img + p + p {
 }
 
 .skill {
-	margin: 30px 0 30px 0;
+	margin: 30px 0 30px -25px;
 	text-align: right;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .skill + p{
@@ -63,22 +63,28 @@ div.img + p + p {
 	margin: 0 0 10px 0;
 }
 
-.skill>div>div {
+
+
+.progress {
 	width: 150px;
 	display: inline-block;
 	background: #3eb69f;
 	border-radius: 5px;
-	height: 12px;
+	height: 14px;
 	margin:0 0 0 12px; 
 	vertical-align: middle;
 	text-align: left;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
 }
 
- .skill>div>div>div {
+.progress-bar {
 	background: #fff;
 	height: 100%;
 	border-radius:5px 0 0 5px;
-} 
+}
+
+
 
 .contact {
 	position: absolute;
@@ -155,6 +161,10 @@ h3>a {
 	height: 21px;
 }
 
+.product-item {
+	margin-bottom: 20px ;
+}
+
 hr {
 	border:1px solid #3FA293;
 	margin: 20px 0;
@@ -181,3 +191,5 @@ div.contact p:before{
 	top: 5px;
 	margin: 0 5px 0 0;
 }
+
+
