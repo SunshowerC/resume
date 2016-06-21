@@ -28,6 +28,14 @@ aside {
 	width: 145px;
 	height: 145px;
 	margin: 0 auto;
+	border-radius: 50%;
+	background: #fff;
+	overflow: hidden;
+}
+
+.img img {
+	position: relative;
+	right: 4px;
 }
 
 div.img + p {
