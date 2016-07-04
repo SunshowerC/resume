@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>陈伟钰的简介</title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/progress.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/resume.js"></script>
+</head>
+<body>
+
+<div id="dowebok">
+    <section class="section hello">
+
+        <h1 class="animate">
+            <span>H</span><span>e</span><span>l</span><span>l</span><span>o </span>
+            <span> 　W</span><span>o</span><span>r</span><span>l</span><span>d</span>
+
+            <!-- Hello World -->
+        </h1>
+    </section>
+    <section class="section">
+        <h1 class="intro-title">
+            自我简介
+        </h1>
+        <div class="photo">
+            <img src="images/542x542.png" alt="头像">
+            <p>兴趣使然的程序猿</p>
+        </div>
+
+        <div class="intro">
+            <div class="contact">
+                <ul>
+                    <li class="name">陈伟钰</li>
+                    <li class="phone">13590243350</li>
+                    <li class="email"><a href="mailto:chenweiyu6909@gmail.com">chenweiyu6909@gmail.com</a></li>
+                    <li class="github"><a href="http://www.github.com/Weiyu-Chen"
+                                          target="_blank">github.com/Weiyu-Chen</a>
+                    </li>
+                </ul>
+
+                <div class="edu">
+                    <h3>教育背景</h3>
+                    <p>2013年09月至2017年07月: 深圳大学-信息工程学院</p>
+                    <h3>在校荣誉</h3>
+                    <ul>
+                        <li>2013-2014年获得校级二等奖学金</li>
+                        <li>2014-2015年获得“挑战杯”大学生课外科技竞赛二等奖</li>
+                        <li>学业平均绩点 3.43/4.00</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="info">
+                <h3>自我评价</h3>
+                <p>我是一个性格幽默、做事认真的人。</p>
+                <p>我执行力强，有时间概念，能在约定时间内保证完成任务。</p>
+                <p>我喜欢研究所碰到的各种技术，关注前端大神的博客，有自己的github账号。</p>
+                <p>学习习惯良好，会用markdown随时写下自己觉得有用的知识，笔记根目录名为“程序猿的自我修养”哟。</p>
+                <p>有自己的学习计划，对自己的学习发展路线较为明确。</p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section section2">
+        <h1 class="intro-title">专业技能</h1>
+
+
+
+        <div class="knowlegde">
+
+            <ul class="thinking">
+                <li>思想</li>
+                <li>W3C标准</li>
+                <li>HTML语义化</li>
+                <li>结构，表现，行为分离</li>
+                <li>响应式布局</li>
+                <li>JS面向对象组件化编程</li>
+                <li>模块化编程</li>
+                <li>基本兼容性处理</li>
+            </ul>
+
+
+            <ul class="tech">
+                <li>技术</li>
+                <li>DOM</li>
+                <li>AJAX</li>
+                <li>JSONP</li>
+                <li>Git</li>
+                <li>Photoshop</li>
+                <li>Markdown</li>
+            </ul>
+        </div>
+        <div class="skill">
+            <h2>语言/框架/库</h2>
+        </div>
+
+    </section>
+    <section class="section">
+        <h1 class="intro-title">项目经验</h1>
+        <div class="product">
+
+            <div class="product-item">
+                <h2>bootstrap博客</h2>
+                <div class="popup">
+                    <p>任务：通过bootstrap实现一个<a href="http://weiyu-chen.github.io/blog-bootstrap/" target="_blank">博客首页</a>。</p><br>
+                    <p>问题与解决：<br>
+                        　　优化用户体验，使用bootstrap自带的响应式布局。结合媒体查询，实现移动终端可用。<br>
+                        　　自身样式与bootstrap自带样式冲突，容易产生莫名其妙的bug，需要仔细进行排查。<br>
+                    </p><br>
+                    <p>心得：<br>
+                        　　掌握bootstrap响应式布局，以及其UI库的基本用法。
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="product-item">
+                <h2>问卷调查系统</h2>
+                <div class="popup">
+                    <p>任务：小团队开发，我负责首页<a href="http://weiyu-chen.github.io/IFE/IFE-Mission4/task50/questList.html" target="_blank">问卷列表</a>部分。</p>
+                    <p>问题与解决：<br>
+                        　　优化DOM节点操作，使用underscore.js模板库。<br>
+                        　　避免导入其他UI库，使应用过于臃肿，自行开发 拖拽，模态框，日历等组件，封装好供全组人员统一使用。<br>
+                        　　防止文件依赖性过于复杂，不利于管理，使用require.js模块化开发。<br>
+                        　　require.js使用的是AMD规范，部分模块文件并没有根据该规范写，通过shim配置不兼容的模块。<br>
+                        　　最终问卷数据可通过echar实现数据可视化</p>
+                    <p>心得：<br>　　此次项目，由于前期规范的不明确，各人代码风格不统一，导致后期各个组员的文件合并整合出现了一些障碍，导致最后的代码并不算很优雅。但也同时了解到了前端团队协作中模块化与人为约定的重要性。</p>
+                </div>
+            </div>
+            <div class="product-item">
+                <h2>瀑布流插件</h2>
+                <div class="popup">
+                    <p>任务：原生js开发<a href="http://weiyu-chen.github.io/IFE/IFE-Mission3/task44.html" target="_blank">图片瀑布流</a>插件，封装，提供接口</p>
+                    <p>问题与解决：<br>
+                        　　用户拖动一次滚动条可能会触发几十次甚至上百次onscroll事件，开销过大，使用throttle节流，限制事件触发的频率。<br>
+                        　　个人缺少图片源，向其他服务器接口请求数据，需要跨域。个人分别使用了两者解决方案：<br>　　一种是JSONP跨域请求；<br>　　另一种是代理服务器跨域，通过ajax向同域的nodejs服务器发送请求，nodejs服务器再向图片服务器请求，并得到数据后返回给前端。
+                    </p>
+                    <p>心得：<br>通过自行实现一个简单的服务器来实现前后端的数据交互，加深了前后端数据交互以及前后端分离的理解。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="stage">
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+        </div>
+        <div class="search-job">
+            <img src="images/search_job.png" alt="search job">
+        </div>
+        <p class="last-email"><a href="mailto:chenweiyu6909@gmail.com">chenweiyu6909@gmail.com</a></p>
+    </section>
+</div>
+
+
+</body>
+</html>
