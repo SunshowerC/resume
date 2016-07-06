@@ -8,10 +8,10 @@
 <body>
 <div class="resume">
     <aside>
+
         <div class="img"><img src="img/realman-1.1.png"/></div>
         <p class="white">陈伟钰</p>
         <p>见习前端攻城狮</p>
-
         <!-- 个人技能熟练度 -->
         <div class="skill white">
         </div>
@@ -29,31 +29,15 @@
     <div class="content">
         <div class="product">
             <h2>作品案例</h2>
-
-            <section class="product-item">
-                <h3>
-                    <a href="http://weiyu-chen.github.io/productions/officalSite" target="_blank">常见技术产品官网</a>
-                    <span>HTML5</span><span>CSS</span>
-                </h3>
-                <p>静态页面，常见的技术产品官网设计，设计稿还原</p>
-            </section>
-
-            <section class="product-item">
-                <h3>
-                    <a href="http://weiyu-chen.github.io/productions/mobile/rem.html" target="_blank">移动Web页面布局</a>
-                    <span>rem</span><span>flexbox</span><span>移动终端兼容</span>
-                </h3>
-                <p>静态页面，基本兼容主流手机分辨率以及浏览器。尝试了两种方案，一种<a href="http://weiyu-chen.github.io/productions/mobile/flexbox.html">flexbox弹性布局</a>；另一种rem方案：使用js查询设备宽度，设置根节点font-size大小，配合样式使用rem，以此来适配各类终端。效果各有优劣</p>
-
-            </section>
-
             <section class="product-item">
                 <h3>
                     <a href="http://weiyu-chen.github.io/blog-bootstrap/"
                        target="_blank">bootstrap博客</a>
                     <span>Bootstrap</span><span>SASS</span>
                 </h3>
-                <p>响应式布局，移动终端可用，使用sass开发。</p>
+                <p>　　优化用户体验，使用bootstrap自带的响应式布局。结合媒体查询，实现移动终端可用。<br>
+                    　　自身样式与bootstrap自带样式冲突，容易产生莫名其妙的bug，需要仔细进行排查。<br>
+                    　　掌握bootstrap响应式布局以及其UI库的基本用法。</p>
             </section>
 
             <section class="product-item">
@@ -62,7 +46,13 @@
                        target="_blank">问卷调查系统</a>
                     <span>Underscore</span><span>SASS</span><span>require.js</span>
                 </h3>
-                <p>小团队开发，使用 underscore 模板库优化dom节点操作，自己写几个简单的组件，并封装好提供给其他队友使用，最后使用 require.js 实现模块化。使用 localstroage 模拟后台数据，在本地存储数据。实现功能：问卷的添加，删除，修改，发布，提交后数据整合，通过 echart 实现数据可视化。</p>
+                <p>　　优化DOM节点操作，使用underscore.js模板库。<br>
+                    　　避免导入其他UI库，使应用过于臃肿，自行开发 拖拽，模态框，日历等组件，封装好供全组人员统一使用。<br>
+                    　　防止文件依赖性过于复杂，不利于管理，使用require.js模块化开发。<br>
+                    　　require.js使用的是AMD规范，部分模块文件并没有根据该规范写，通过shim配置不兼容的模块。<br>
+                    　　最终问卷数据可通过echar实现数据可视化.
+                    <p>　　心得：此次项目，由于前期规范的不明确，各人代码风格不统一，导致后期各个组员的文件合并整合出现了一些障碍，导致最后的代码并不算很优雅。但也同时了解到了前端团队协作中模块化与人为约定的重要性。</p>
+                </p>
             </section>
 
             <section class="product-item">
@@ -71,7 +61,9 @@
                        target="_blank">瀑布流</a>
                     <span>JSONP</span><span>AJAX</span>
                 </h3>
-                <p>原生Javascript写的瀑布流组件，throttle节流优化加载操作，图片请求使用wookmark的开放API，通过JSONP跨域获取图片数据，也尝试了用AJAX获取数据的方案。</p>
+                <p>　　用户拖动一次滚动条可能会触发几十次甚至上百次onscroll事件，开销过大，使用throttle节流，限制事件触发的频率。<br>
+                    　　个人缺少图片源，向其他服务器接口请求数据，需要跨域。个人分别使用了两者解决方案：一种是JSONP跨域请求；另一种是代理服务器跨域，通过ajax向同域的nodejs服务器发送请求，nodejs服务器再向图片服务器请求，并得到数据后返回给前端。</p>
+                <p>　　心得：通过自行实现一个简单的服务器来实现前后端的数据交互，加深了前后端数据交互以及前后端分离的理解。</p>
             </section>
 
         </div>
@@ -86,22 +78,17 @@
         </div>
         <div class="whatIKnow">
             <h2>我所了解的</h2>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>DOM</span>
-            <span>HTML语义化</span>
-            <span>Ajax</span>
+            <span>W3C标准</span>
             <span>响应式布局</span>
             <span>JS面向对象组件化编程</span>
             <span>模块化编程</span>
             <span>基本兼容性处理</span>
-            <div class="tool">
-                <h3>个人常用开发工具</h3>
-                <span>Webstorm</span>
-                <span>sublime</span>
-                <span>Github</span>
-                <span>Chorme Developer Tools</span>
-            </div>
+            <br>
+            <span>DOM</span>
+            <span>AJAX</span>
+            <span>JSONP</span>
+            <span>Git</span>
+            <span>Photoshop</span>
         </div>
     </div>
 </div>
