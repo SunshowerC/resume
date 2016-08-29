@@ -1,14 +1,17 @@
 (function () {
     var ability = {
-        'HTML': '80%',
-        'CSS': '73%',
-        'JavaScript': '65%',
-        'SASS': '50%',
-        'JQuery': '52%',
-        'Bootstrap': '45%',
-        'require.js': '40%',
-        'Underscore.js': '35%',
-        'Node.js':'16%'
+        'JavaScript': '85%',
+        'JQuery/Zepto': '82%',
+        'SASS': '76%',
+        'Bootstrap': '75%',
+        'require.js': '80%',
+        'sea.js': '70%',
+        'Underscore.js': '45%',
+        'Gulp': '82%',
+        'WeUI':'45%',
+        'JS-SDK':'40%',
+        'Node.js':'66%',
+        'mongodb':'50%'
     };
 
     function addSkillValue() {

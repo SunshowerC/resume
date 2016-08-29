@@ -35,35 +35,37 @@
                        target="_blank">bootstrap博客</a>
                     <span>Bootstrap</span><span>SASS</span>
                 </h3>
-                <p>　　优化用户体验，使用bootstrap自带的响应式布局。结合媒体查询，实现移动终端可用。<br>
-                    　　自身样式与bootstrap自带样式冲突，容易产生莫名其妙的bug，需要仔细进行排查。<br>
-                    　　掌握bootstrap响应式布局以及其UI库的基本用法。</p>
+                <p>　　优化用户体验，使用bootstrap自带的响应式布局,样式使用sass实现组件化, 移动终端可用。<br>
+                    　　</p>
+            </section>
+            <section class="product-item">
+                <h3>
+                    <a href="http://weiyu-chen.github.io/IFE/IFE-Mission3/task44.html"
+                       target="_blank">瀑布流</a>
+                    <span>JSONP</span><span>AJAX</span><span>跨域</span>
+                </h3>
+                <p>原生Javascript编写，封装成组件。使用throttle节流，限制滚动下拉加载事件触发的频率。<br>
+                    　　个人缺少图片源，向其他服务器接口请求数据，需要跨域。个人分别使用了两者解决方案：一种是JSONP跨域请求；另一种是代理服务器跨域，通过ajax向同域的nodejs服务器发送请求，nodejs服务器再向图片服务器请求，并得到数据后返回给前端。</p>
             </section>
 
             <section class="product-item">
                 <h3>
-                    <a href="http://weiyu-chen.github.io/IFE/IFE-Mission4/task50/questList.html"
-                       target="_blank">问卷调查系统</a>
-                    <span>Underscore</span><span>SASS</span><span>require.js</span>
+                    <a href="#"
+                       target="_blank">学校论坛开发</a>
+                    <span>bootstrap</span><span>SASS</span><span>require.js</span>
                 </h3>
-                <p>　　优化DOM节点操作，使用underscore.js模板库。<br>
-                    　　避免导入其他UI库，使应用过于臃肿，自行开发 拖拽，模态框，日历等组件，封装好供全组人员统一使用。<br>
-                    　　防止文件依赖性过于复杂，不利于管理，使用require.js模块化开发。<br>
-                    　　require.js使用的是AMD规范，部分模块文件并没有根据该规范写，通过shim配置不兼容的模块。<br>
-                    　　最终问卷数据可通过echar实现数据可视化.
-                    <p>　　心得：此次项目，由于前期规范的不明确，各人代码风格不统一，导致后期各个组员的文件合并整合出现了一些障碍，导致最后的代码并不算很优雅。但也同时了解到了前端团队协作中模块化与人为约定的重要性。</p>
+                <p>参与学校官方性质的论坛--时间银行 的开发，后端nodejs，前后端分离，前端接口获取数据，客户端渲染。
                 </p>
             </section>
 
             <section class="product-item">
                 <h3>
-                    <a href="http://weiyu-chen.github.io/IFE/IFE-Mission3/task44.html"
-                       target="_blank">瀑布流</a>
-                    <span>JSONP</span><span>AJAX</span>
+                    <a href="http://weiyu-chen.github.io/IFE/IFE-Mission4/task50/questList.html"
+                       target="_blank">node爬虫与echarts数据可视化</a>
+                    <span>nodejs</span><span>mongoose</span>
                 </h3>
-                <p>　　用户拖动一次滚动条可能会触发几十次甚至上百次onscroll事件，开销过大，使用throttle节流，限制事件触发的频率。<br>
-                    　　个人缺少图片源，向其他服务器接口请求数据，需要跨域。个人分别使用了两者解决方案：一种是JSONP跨域请求；另一种是代理服务器跨域，通过ajax向同域的nodejs服务器发送请求，nodejs服务器再向图片服务器请求，并得到数据后返回给前端。</p>
-                <p>　　心得：通过自行实现一个简单的服务器来实现前后端的数据交互，加深了前后端数据交互以及前后端分离的理解。</p>
+                <p>　　node爬虫爬取拉勾网最新招聘信息，通过mongoose数据处理解析，前端获取数据并通过echarts实现数据可视化以及撰写分析文章。该文章挂载在<a href="http://www.chenwy.cn/spider-chart-frontend.html"><strong>腾讯云个人云服务器上</strong></a>。该爬虫前后端封装良好，通过更改参数可轻松爬取其他职业的数据。<a href="https://github.com/Weiyu-Chen/lagou-spider-node">到GitHub了解更多</a>
+                </p>
             </section>
 
         </div>
@@ -71,10 +73,12 @@
             <h2>教育背景</h2>
             <p>深圳大学——信息工程学院——集成电路设计与集成系统</p>
             <p>2013年09月至2017年07月</p>
-            <h2>在校经历</h2>
-            <h3>2013-2014年获得校级二等奖学金</h3>
-            <h3>2014-2015年获得“挑战杯”大学生课外科技竞赛二等奖</h3>
-            <h3>学业平均绩点 <b>3.43/4.00</b></h3>
+            <p>学业平均绩点 <b>3.43/4.00</b></p>
+
+            <h2>经历</h2>
+            <h3>2013-2014:获得校级二等奖学金</h3>
+            <h3>2014-2015:获得“挑战杯”大学生课外科技竞赛二等奖</h3>
+            <h3>2016.06--09: 深圳优创智投科技有限公司，前端实习生。在公司期间，使用WeUI，JS-SDK，zepto参与微信前端开发，使用rem兼容不同设备，参与公司<a href="http://git.oschina.net/uctoo/uctoo">微信应用开发平台</a>前端部分的常规开发维护。</h3>
         </div>
         <div class="whatIKnow">
             <h2>我所了解的</h2>
