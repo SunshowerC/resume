@@ -1,17 +1,18 @@
 (function () {
     var ability = {
         'JavaScript': '85%',
-        'JQuery/Zepto': '82%',
-        'SASS': '76%',
-        'Bootstrap': '75%',
-        'require.js': '80%',
-        'sea.js': '70%',
-        'Underscore.js': '45%',
-        'Gulp': '82%',
+        'jQuery': '82%',
+        'Zepto':'75%',
+        'SASS': '75%',
+        'Bootstrap': '70%',
+        'RequireJS': '80%',
+        'SeaJS': '76%',
+        'Underscore': '55%',
+        'Gulp': '73%',
         'WeUI':'45%',
         'JS-SDK':'40%',
         'Node.js':'66%',
-        'mongodb':'50%'
+        'MongoDB':'50%'
     };
 
     function addSkillValue() {
@@ -28,6 +29,6 @@
 
     addSkillValue();
 
-}())
+}());
 
 

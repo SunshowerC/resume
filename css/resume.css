@@ -11,6 +11,18 @@
 	height: 1100px;
 	margin: 0 auto;
 	background: #f1eee8;
+	position: relative;
+}
+
+.ol-resume {
+	position: absolute;
+	top:5px;
+	right:56px;
+	color: rgb(93, 195, 177) ;
+}
+
+.ol-resume > a {
+	color: rgb(93, 195, 177) ;
 }
 
 aside {
@@ -121,7 +133,7 @@ div.img + p + p {
 
 .content p {
 	color: #777;
-	font-size: 14px;
+	font-size: 16px;
 	margin: 7px 0 0 0;
 
 }
@@ -140,7 +152,7 @@ h2 {
 
 h3 {
 	color: #6a6a6a;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 10px 0 0 0;
 }
 a {
@@ -149,6 +161,11 @@ a {
 
 .education {
 	margin: 20px 0 0 0;
+}
+
+.education h3 {
+	font-size:16px;
+	font-weight:300;
 }
 
 .whatIKnow span,.product span {
